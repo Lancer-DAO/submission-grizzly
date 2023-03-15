@@ -1,0 +1,10 @@
+runtime: nodejs16
+service: api
+env_variables:
+  BASE_URL: https://dev-kgvm1sxe.us.auth0.com/
+  AUTH_URL: https://dev-kgvm1sxe.us.auth0.com/oauth/token
+  CLIENT_ID: ZaU1oZzvlb06tZC8UXtTvTM9KSBY9pzk
+  CLIENT_SECRET: ih8ukIVP2oG717kVS64wXTmfvV0omklFD42zLe4ANEhpObdQAwRlb2e0CrqdLWjZ
+  REDIRECT_URI: https://api.lancer.so
+  FRONT_ENDPOINT: https://lancer.so/
+  NODE_ENV: production

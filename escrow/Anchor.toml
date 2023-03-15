@@ -1,0 +1,18 @@
+[features]
+seeds = true
+skip-lint = false
+[programs.localnet]
+mono_program = "DYMY9uf1t4vvSnHxJZJor74xjb67v7fuMTWBCxcknXj8"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/chinedum/.config/solana/id.json"
+
+[test]
+startup_wait = 60000
+
+[scripts]
+test = "sh test.sh"

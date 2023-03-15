@@ -1,0 +1,85 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@/assets": [
+        "./src/assets/*"
+      ],
+      "@/atoms": [
+        "./src/atoms/index.ts"
+      ],
+      "@/components": [
+        "./src/components/index.ts"
+      ],
+      "@/config": [
+        "./src/config/index.ts"
+      ],
+      "@/constants": [
+        "./src/constants/index.ts"
+      ],
+      "@/helpers": [
+        "extension/content/helpers/index.ts"
+      ],
+      "@/hooks": [
+        "./src/hooks/index.ts"
+      ],
+      "@/layouts": [
+        "./src/layouts/index.ts"
+      ],
+      "@/onChain": [
+        "./src/onChain/index.ts"
+      ],
+      "@/pages": [
+        "./src/pages"
+      ],
+      "@/providers": [
+        "./src/providers/index.ts"
+      ],
+      "@/styles": [
+        "./src/styles"
+      ],
+      "@/server": [
+        "./server"
+      ],
+      "@/types": [
+        "./src/types/index.ts"
+      ],
+      "@/utils": [
+        "./src/utils/index.ts"
+      ]
+    },
+    "noEmit": false,
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "escrow",
+    "extension"
+  ]
+}

@@ -1,0 +1,6 @@
+dispatch:
+    - url: "app.lancer.so/*"
+      service: app
+
+    - url: "api.lancer.so/*"
+      service: api

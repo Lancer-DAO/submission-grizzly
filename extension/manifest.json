@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Lancer Github Extension",
+  "version": "0.2.0",
+  "icons": {},
+  "host_permissions": [
+    "http://localhost:3000/*",
+    "https://github.com/*",
+    "https://app-dot-lancer-api-375702.uc.r.appspot.com/*",
+    "https://app.lancer.so/*"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "system.display",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:3000/*",
+        "https://github.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "media": []
+    }
+  ]
+}

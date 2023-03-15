@@ -1,0 +1,3 @@
+docker exec -it lancer-db bin/bash
+docker run --name lancer-db -e POSTGRES_USER=developer -e POSTGRES_PASSWORD=developer -p 5432:5432 -d postgres
+docker run --name my-pgadmin -p 82:80 -e 'PGADMIN_DEFAULT_EMAIL=jack@sturt.io' -e 'PGADMIN_DEFAULT_PASSWORD=test'-d dpage/pgadmin4

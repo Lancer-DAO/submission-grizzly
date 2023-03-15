@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  background-color: #1e1e1e;
+}
+
+.App {
+    width: 23rem;
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .confirm-funding-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1e1e1e;
+  }
+
+  .confirm-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .confirm-button {
+    margin-bottom: 8px;
+    border-radius: 6px;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    background-color: #14bb88;
+
+    &.disabled {
+      background-color: gray;
+      &:hover {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .transaction-hash {
+    color: white;
+  }
+
+  .split {
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .split-header {
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .split-info {
+    font-size: 16px;
+  }
+
+  .public-key:hover {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .fund-split-wrapper {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .fund-split-outer {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .add-input {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .pubkey-input {
+    width: 250px;
+  }
+
+  .percent-input {
+    width: 60px;
+  }
+
+  .y-padded {
+    padding: 3px 10px;
+  }
+
+  .add-split {
+    margin-bottom: 16px;
+  }
+
+
+
+  .contributor-name {
+    width: 150px;
+    margin-right: 10px;
+  }
+
+  .contributor-amount {
+    display: flex;
+  }
+
+  .button-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .remaining-amount {
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .validText {
+    color: #14bb88;
+  }
+
+  .invalidText {
+    color: red;
+  }
+
+  .logo-wrapper {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  .left-margin {
+    margin-left: 10px;
+  }
+
+  .solana-logo {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   margin-left: 8px;
+  }
+
+  .loading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loading-text {
+    color: white;
+    margin-right: 6px;
+  }
+
+  .confirm-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+  }
+
+  .error-text {
+    color: red;
+  }
+
+  .page-header {
+    width: 100%;
+    text-align: center;
+    color: #14bb88;
+    margin-bottom: 30px;
+  }
